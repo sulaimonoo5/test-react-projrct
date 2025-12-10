@@ -1,0 +1,65 @@
+.nav {
+  margin: auto;
+  padding: 5% 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pizzashop {
+  font-weight: 900;
+  font-size: 1.5rem;
+  background: #ff6432;
+  background: linear-gradient(to top right, #ff6432 0%, #ffa228 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.imgLines {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cart {
+  width: 30px;
+  height: 30px;
+}
+
+/* Бургер меню */
+
+.mainLines {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  cursor: pointer;
+}
+
+.line {
+  background: #ff6432;
+  background: linear-gradient(to top right, #ff6432 0%, #ffa228 100%);
+  -webkit-text-fill-color: transparent;
+  width: 30px;
+  height: 1px;
+}
+
+.ulStyle {
+  color: #fff;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 2rem;
+  padding-bottom: 3rem;
+}
+
+.logInBtn {
+  color: #fff;
+  font-size: 17px;
+  padding: 10px 60px 10px 60px;
+  border: none;
+  border-radius: 15px;
+  background: #ff6432;
+  background: linear-gradient(to top right, #ff6432 0%, #ffa228 100%);
+}
