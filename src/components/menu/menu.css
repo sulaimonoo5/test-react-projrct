@@ -1,0 +1,22 @@
+/* Стили под Menu section */
+.menuSection{
+    margin: auto;
+    padding: 5% 5%;
+}
+
+/* Стили под текст menu section */
+
+.menuText{
+    display: flex;
+    justify-content: center;
+
+}
+
+.h1MenuText{
+    color: #fff;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+
+
